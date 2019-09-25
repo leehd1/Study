@@ -1,0 +1,280 @@
+@CHARSET "EUC-KR";
+
+	.fst_container{
+	margin-top: 10em;
+	}
+
+	#ula > .dropdown:hover .dropdown-menu { 
+ 	display:block;
+	margin-top:0; 
+	position: absolute;
+	}
+	.my-2 a{
+		font-size: 1.5em;
+		text-decoration: none;
+		font-weight:bold;
+	}
+	.my-2 a:HOVER {
+	color: #fd5f37 !important;
+	
+	}
+	.main_jum{
+		padding: 10em 0;
+	}
+	.text-travel{
+	color: #F78536 !important;
+	}
+	li{
+		float: left;
+		margin-right: 30px;
+	}
+	ul{
+		list-style: none;
+	}
+	.header{
+		position: fixed !important;
+		background: #fff !important;
+		top: 0;
+		width: 100%;
+	    left:0;
+	    z-index: 9999;
+	}
+	.p-3{
+		margin-top: -2em;
+	}
+	.hideme, .hidemm, .hhh
+	{
+    opacity:0;
+	}
+	.responsive{
+/* /* 	background: linear-gradient(to left, #E2A358, #D7837C); */ 
+/* /* 	background: linear-gradient(45deg, rgba(66, 183, 245, 0.8) 0%, rgba(66, 245, 189, 0.4) 100%); */ 
+/* 	background-image: url("http://www.travelstation.co.kr/webi/main/image/2019_main_image.jpg"); */
+/* 	background-repeat: no-repeat; */
+/* 	background-size: cover; */
+/* 	width: 100%; */
+/* 	height: 1000px; */
+	}
+	.hidemm{
+	margin-bottom: 3em;
+	}
+	.responsiveimg{
+	max-width: 100%;
+/* 	margin-bottom: 0 !important; */
+	}
+	.colsize img{
+	height: 25em;
+	}
+	.colsize{
+		width: 320px;
+		margin: auto; 
+		margin-bottom: 2em;
+	}
+	a{
+		text-decoration: none !important;
+	}
+	.title{
+		color: #6c757d;
+	}
+	.title:HOVER {
+		color: #f78536;
+	}
+	.seebtn{
+		border: 2px solid #F78536;
+		color: #F78536;
+		display: inline-block;
+    	font-weight: 400;
+   		text-align: center;
+    	vertical-align: middle;
+	    user-select: none;
+	    background-color: transparent;
+	    padding: .375rem .75rem;
+	    font-size: 1rem;
+	    line-height: 1.5;
+	    border-radius: .25rem;
+	    transition: color .15s 
+	}
+	.seebtn:HOVER {
+		color: white;
+		background-color: #F78536;
+	}
+
+	.bubble{
+	border: 2px solid #00AD7C;;
+	margin: 10px auto;
+	position: relative;
+/*  	box-shadow: 0 0 5px #E73DB1;  */
+	}
+
+	.arrows{
+	height: 0;
+	width: 0;
+	position: absolute;
+	border-style: solid;
+	left: 80px;
+	border-color: transparent;
+	border-width: 10px;
+	border-left: 15px solid transparent;
+	border-right: 10px solid transparent;
+	}
+.arrow{
+	border-top-color: white;
+	bottom: -8px;
+	}
+.bubble a, .bubble p{
+	padding-left: 30px;
+	}
+.helpcolor{
+	background-color: #00AD7C;
+	}
+.bottom-zero{
+	margin-bottom: 0;
+	}
+	
+	.sh_center{
+			background: linear-gradient(to left, #fcbf92, #ff6d2f);
+		}
+		.sh_h1{
+			font-size: 30px;
+			color: #f78536;
+			font-weight: bold !important;
+		}
+	.sh_button{
+			background: transparent !important;
+    		color: #F78536 !important;
+    		margin-left: 1.5px;
+   			border: 1px solid #F78536 !important;
+   			text-transform: uppercase !important;
+    		letter-spacing: 2px !important;
+    		padding: 8px 20px;
+  			font-size: 16px;
+    		line-height: 1.33333;   		 
+   		 	display: inline-block !important;  			
+   			font-weight: normal !important;
+    		text-align: center !important;
+    		vertical-align: middle !important;
+    		touch-action: manipulation !important;
+    		cursor: pointer !important;
+    		font-weight: bold !important;	
+		}
+	.sh_button:hover{
+			color: #fcfcfc !important;
+   		 	background: #F78536 !important;
+   		 	box-shadow: 0 0 30px rgba(255, 153, 051, 1);	
+		}
+	.sh_mainbutton{
+		color: #Fcfcfc;
+		border: 1px solid #F78536 !important;
+		padding: 8px 20px;
+		width: 100%;
+		background-color: #f78536; 
+		font-size: 17px;
+	}	
+	.sh_mainbutton:hover{
+		box-shadow: 0 0 30px rgba(0, 0, 255, 0.8);
+	}
+	.sh_cancelbutton:hover{
+		box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+	}
+	.maincontainer{
+		background: #fcfcfc;
+		width: auto;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	}
+	.shtext{
+		width: 25%;
+		text-align: center;
+		font-size: 110%;
+		background: #fcfcfc;
+		border: 0px solid #F78536 !important;
+		color: #f78536;
+		margin-right: 1px;
+		font-weight: bold;
+		text-shadow: 3px 2px #E6E6E6;
+		
+	}
+	.sh_prepend{
+		width: 70%;
+		height: 100%;
+	}
+	.sh_form-control{
+		width: 100%;
+		height: 100%;
+	}
+	.sh_h3{
+		text-shadow: 3px 2px #E6E6E6;
+	}
+	/* package css */
+	
+	.dush{
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		height: 3px;
+		width: 100%;
+		margin-bottom: 2em;
+		
+	}
+	.textsize{
+		font-size: 2em;
+		margin-bottom: 0.5em;
+		font-weight: bold;
+	}
+	.pak_table{
+		width: 500px;
+		height: 400px;
+	}
+	.rowmargin{
+		margin: 2em;
+	}
+	.packageImage{
+		margin-bottom: 2em;
+	}
+	.divscroll{
+		height: 250px;
+		overflow: auto;
+		border: 1px solid gray;
+	}
+	.jum_padding{
+		padding: 0;
+		margin: 2rem 0;
+	}
+ 	#moneysize{
+  	line-height: 6.7em; 
+    text-align: center;
+    font-size: 1.5em;
+  }
+  #moneysize > span{
+  	font-weight: bold;
+  	color: #fd5f37;
+  }
+  #moneysize:HOVER span{
+	color: #007bff;
+}
+select{
+	border: 1px solid #e4e4e4;
+}
+.divright{
+	float: right;
+	color: #fd5f37;
+}
+/* reserve.css */
+.thcolor tr>th{
+	background: #ffc266;
+	width: 10%;
+}
+.inblock{
+	display: inline-block;
+}
+.thwidth th{
+	width: 10%;
+}
+.thwidth th, .thwidth td{
+	vertical-align: middle;
+	text-align: center;
+}
+.resbox{
+	border: 1px solid #dcdcdc; 
+	background-color: #f9f9f9; 
+	padding: 1em;
+	border: 0;
+}
